@@ -4,7 +4,7 @@
 $servername = "mysql.hostinger.co.uk";
 $username = "u822806530_clinc";
 $password = "qwerty";
-$dbname = "u822806530_db1";
+$dbname = "u822806530_test";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
