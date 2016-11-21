@@ -2,7 +2,7 @@
 
 // Put your device token here (without spaces):
 $servername = "mysql.hostinger.co.uk";
-$username = "u822806530_clinc";
+$username = "u822806530_test";
 $password = "qwerty";
 $dbname = "u822806530_test";
 
