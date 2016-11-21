@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         $deviceToken = $row["token"];
-		echo \n.$deviceToken." is read";
+		echo "\n".$deviceToken." is read";
 		}
 } else {
     echo "0 results";
