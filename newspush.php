@@ -29,8 +29,8 @@ $conn->close();
 // Put your private key's passphrase here:
 $passphrase = '';
 
-$message = "Hello Sachin";
-$url = "http://clincepics.16mb.com/";
+$message = $argv[1];
+$url = $argv[2];
 
 if (!$message || !$url)
     exit('Example Usage: $php newspush.php \'Breaking News!\' \'https://raywenderlich.com\'' . "\n");
